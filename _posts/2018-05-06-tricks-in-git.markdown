@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Tricks in git"
-date:   2018-06-07 09:00:00 +0200
+date:   2018-05-06 09:00:00 +0200
 categories: git productivity
 ---
 

@@ -9,6 +9,7 @@ TL;DR:
  - git add -p (add just specific changes to staging)
  - tig (useful commandline tool)
  - use git aliases to save keystrokes in your .basrc file
+ - Octothree (browser extension)
 
 Cool git command I use regularly is
 {% highlight zsh %}
@@ -45,3 +46,9 @@ alias gp='git push '
 alias gpl='git pull '
 alias gl='git log --oneline'
 {% endhighlight %}
+
+The next trick is not just git specific but I found it so useful
+that I want to mention it here. If you use github and miss
+navigating the source code in the same way as in your text editor
+you can install Octothree. This is browser extension that enables
+you to navigate files and folder in a tree like structure.

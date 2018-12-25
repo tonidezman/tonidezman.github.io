@@ -6,6 +6,6 @@ permalink: /about/
 
 Hi there.
 
-My name is Toni Dezman. I live and work in Ljubljana, Slovenia.
+My name is Toni Dezman. I like to build well-crafted software and I have a passion about app performance.
 
-I am self taught developer who likes to learn, build and write about the things I think it could be useful to you.
+I like to write about the things I think it could be useful to you.

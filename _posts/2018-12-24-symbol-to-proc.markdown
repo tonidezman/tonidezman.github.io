@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Symbol to Proc"
-date:   2018-12-25 09:00:00 +0200
+date:   2018-12-24 09:00:00 +0200
 categories: ruby
 ---
 

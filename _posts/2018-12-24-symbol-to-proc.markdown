@@ -5,6 +5,10 @@ date:   2018-12-24 09:00:00 +0200
 categories: ruby
 ---
 
+TL;DR:
+  - Symbol to Proc is Awesome!
+  - You can use it as a shorthand `array.each(&:method_name)`
+
 Lets say we have array of names and we want to transform the names to upcase. One way to do this is to use the map method.
 {% highlight ruby %}
 arr = %w(toni dare johnny tomaz)

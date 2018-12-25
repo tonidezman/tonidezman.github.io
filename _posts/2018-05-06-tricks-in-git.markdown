@@ -6,10 +6,18 @@ categories: VSCode
 ---
 
 TL;DR:
+ - git pickaxe
  - git add -p (add just specific changes to staging)
  - tig (useful commandline tool)
  - use git aliases to save keystrokes in your .basrc file
  - Octothree (browser extension)
+
+If you are trying to find how code inside the project changed through time you can used so called **git pickaxe**.
+
+{% highlight zsh %}
+$ git log -S "some code" --reverse --patch
+{% endhighlight %}
+What this does is shows you all the commits and its content (oldest commits first).
 
 Cool git command I use regularly is
 {% highlight zsh %}

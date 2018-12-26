@@ -2,7 +2,7 @@
 layout: post
 title:  "Awesome print and Table print gems"
 date:   2018-06-06 09:00:00 +0200
-categories: rails
+categories: Rails
 ---
 
 TL;DR:

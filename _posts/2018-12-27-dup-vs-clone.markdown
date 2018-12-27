@@ -6,8 +6,8 @@ categories: Ruby
 ---
 
 TL;DR:
-  - clone duplicates everything (including singleton methods, freeze state, etc.)
-  - dup duplicates most of the things
+  - clone duplicates most of the things (including singleton methods, freeze state, etc.)
+  - dup creates "shallow copy"
 
 Let's create simple Person class one person object with singleton method
 {% highlight ruby %}

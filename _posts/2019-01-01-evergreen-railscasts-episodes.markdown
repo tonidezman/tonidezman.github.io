@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Evergreen Railscasts episodes"
-date:   2019-01-01 09:00:00 +0200
+date:   2018-01-01 09:00:00 +0200
 categories: Rails
 ---
 
@@ -72,4 +72,4 @@ ActiveRecord::Querying#methods:
 - **Episode 19**: [Where Administration Goes](http://railscasts.com/episodes/19-where-administration-goes?view=asciicast). Ryan present different approact to admin dashboards. You can embed edit/destroy links right into the page.
 
 # I finished episode 19
-- **Episode 0**: [xx](xx). In this episode Ryan explains how to use memoization in Ruby
+- **Episode 0**: [xx](xx).

@@ -2,8 +2,10 @@
 layout: post
 title:  "Evergreen Railscasts episodes"
 date:   2018-01-01 09:00:00 +0200
-categories: rails
+categories: Rails
 ---
+
+## !This is work in progress!
 
 I am going through Railscasts in 2019 and this is my list of episodes I think that you could benefit from even if they are ancient in internet years.
 

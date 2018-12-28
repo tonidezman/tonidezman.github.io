@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Evergreen Railscasts episodes"
-date:   2018-01-01 09:00:00 +0200
+date:   2019-01-01 09:00:00 +0200
 categories: Rails
 ---
 

@@ -47,7 +47,7 @@ Rails.application.config.filter_parameters += [:password]
 
 - **Episode 10, 11, 12**: [Refactoring User Name](http://railscasts.com/episodes/10-refactoring-user-name-part-1?view=asciicast). Nice intro to Refactoring. The practice of Refactoring with test is basicaly the same today at it was then.
 
-- **Episode 13**: [Dangers of Model in Session](http://railscasts.com/episodes/13-dangers-of-model-in-session?view=asciicast). This is basic stuff but for someone just starting out: Never save object into a session cookie. If you want to do this you better have good reason for doing this. Instead of whole object you should store ids.
+- **Episode 13**: [Dangers of Model in Session](http://railscasts.com/episodes/13-dangers-of-model-in-session?view=asciicast). This is basic stuff but for someone just starting please never save object into a session cookie. If you want to do this you better have good reason for doing this. Instead of storing the whole object you should store the id.
 
 - **Episode 14**: [Performing Calculations on Models](http://railscasts.com/episodes/14-performing-calculations-on-models). The code is outdated but you should still add `pry-rails` to your Gemfile and run `bundle install`. Then you can fire `bin/rails console` and look at different methods that you have on your models and look at the SQL that ActiveRecord produces for you.
 {% highlight zsh %}

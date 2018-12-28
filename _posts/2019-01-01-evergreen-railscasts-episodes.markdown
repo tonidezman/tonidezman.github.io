@@ -5,8 +5,6 @@ date:   2019-01-01 09:00:00 +0200
 categories: Rails
 ---
 
-## !This is work in progress!
-
 I am going through Railscasts in 2019 and this is my list of episodes I think that you could benefit from even if they are ancient in internet years.
 
 TL;DR:
@@ -75,4 +73,4 @@ ActiveRecord::Querying#methods:
 
 - **Episode 19**: [Where Administration Goes](http://railscasts.com/episodes/19-where-administration-goes?view=asciicast). Ryan present different approact to admin dashboards. You can embed edit/destroy links right into the page.
 
-# I finished with episode 19
+# I finished episode 19

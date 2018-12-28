@@ -23,8 +23,6 @@ If you are complete beginner I suggest you first go through [rails tutorial](htt
 Of course not every episode has aged well so that is why I decided that I will create this blog post and try to distill useful Railscasts episodes for you.
 
 ### Evergreen episodes:
-- **Episode 0**: [xx](xx). In this episode Ryan explains how to use memoization in Ruby
-
 - **Episode 1**: [Caching with Instance Variables](http://railscasts.com/episodes/1-caching-with-instance-variables?view=asciicast). In this episode Ryan explains how to use memoization in Ruby
 
 - **Episode 4**: [Move Find into Model](http://railscasts.com/episodes/4-move-find-into-model?view=asciicast)
@@ -74,3 +72,4 @@ ActiveRecord::Querying#methods:
 - **Episode 19**: [Where Administration Goes](http://railscasts.com/episodes/19-where-administration-goes?view=asciicast). Ryan present different approact to admin dashboards. You can embed edit/destroy links right into the page.
 
 # I finished episode 19
+- **Episode 0**: [xx](xx). In this episode Ryan explains how to use memoization in Ruby

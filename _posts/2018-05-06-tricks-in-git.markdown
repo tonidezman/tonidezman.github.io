@@ -28,6 +28,12 @@ $ git add -p
 Which enables you to add specific code to staging and not just the
 whole file.
 
+If you want to see what commit changes were made on particular file
+{% highlight zsh %}
+$ git log -- my_file.txt
+{% endhighlight %}
+`--` says that this is current branch. You can add `--patch` before `--` to see the changes.
+
 One command line tool I enjoy using is **tig**. I mostly use it
 for inspecting commits, commit history, diffs etc.
 

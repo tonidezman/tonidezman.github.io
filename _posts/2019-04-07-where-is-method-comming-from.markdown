@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Where is this method comming from?"
-date:   2019-04-02 09:00:00 +0200
+title:  "Where is this method coming from?"
+date:   2019-04-07 09:00:00 +0200
 categories: Ruby
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Enumerable grep method"
-date:   2019-04-02 09:00:00 +0200
+date:   2019-04-05 09:00:00 +0200
 categories: Ruby
 ---
 

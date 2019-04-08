@@ -5,6 +5,8 @@ date:   2019-04-07 09:00:00 +0200
 categories: Ruby
 ---
 
+In this blog post we will be looking at how to find method in the method lookup chain
+
 {% highlight ruby %}
 class Person
 end

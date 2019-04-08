@@ -19,7 +19,8 @@ Do you know where `ancestors` method is coming from? I don't either so let's inv
 We know that the lookup chain contains `[Person, Object, Kernel, BasicObject]` so lets start here.
 {% highlight ruby %}
 result = Person.ancestors.select do |class_or_module|
-  class_or_module.instance_methods(false).include?(:ancestors) || el.methods(false).include?(:ancestors)
+  el.methods(false).include?(:ancestors) ||
+    class_or_module.instance_methods(false).include?(:ancestors)
 end
 
 result # => []

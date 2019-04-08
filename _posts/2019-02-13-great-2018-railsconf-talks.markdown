@@ -5,7 +5,7 @@ date:   2019-02-12 09:00:00 +0200
 categories: Rails
 ---
 
-I just finished watching all of 88 RailsConf 2018 talks. It took me few months and here we are. Just as a side note I am used Chrome Extension to speed up Youtube videos in ranges between 1.5x up to 2.5x
+I just finished watching all of 88 RailsConf 2018 talks. It took me few months and here we are. Just as a side note I am using Chrome Extension to speed up Youtube videos in ranges between 1.5x up to 2.5x
 
 Most of the talks are good, some of them are great and one is so amazing that it gets its own category. I hope you enjoy this talks and learn about things that you did not know.
 

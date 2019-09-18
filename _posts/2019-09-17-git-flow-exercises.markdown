@@ -11,11 +11,11 @@ Before doing the exercises you should read the [git-flow concept](https://nvie.c
 
 Let's get started:
 
-1. create empty directory and run `git init`. then run `git flow init`
-2. you are building new feature called my_feature. By creating great_feature.txt file you are done.
-3. release this feature as 0.1 version.
+1. Create empty directory and run `git init`. then run `git flow init`
+2. You are building new feature called my_feature. By creating great_feature.txt file you are done.
+3. Release this feature as 0.1 version.
 4. Your boss comes to you and informs you that we have bug in production because great_feature.txt file is empty. create hotfix and add text "bug fixed".
-5. Release this as 0.1.1 version.
+5. Release this code as 0.1.1 version.
 6. You have one massive feature that you will be working right now. create two new files.
 7. Prepare the release as version 1.0 but don't merge the release to the master yet.
 8. We have another bug that needs you to delete one of the files that you generated in the release branch.

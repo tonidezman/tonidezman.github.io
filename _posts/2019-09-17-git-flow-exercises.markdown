@@ -20,3 +20,5 @@ Let's get started:
 7. Prepare the release as version 1.0 but don't merge the release to the master yet.
 8. We have another bug that needs you to delete one of the files that you generated in the release branch.
 9. You can release the branch as 1.0.1
+
+Protip: If you are using zsh you can install [git flow plugin](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/git-flow)

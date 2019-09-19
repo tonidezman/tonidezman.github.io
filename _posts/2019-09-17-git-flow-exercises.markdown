@@ -33,8 +33,10 @@ Let's get started:
 20. Finally you can release version 1.0 🎉
 
 <br>
-<strong>Bonus exercise:</strong>
-- cleanup branches locally and on GitHub. You should only have master and develop branches at the end.
+<strong>Bonus exercises:</strong>
+- Develop new feature while you have release branch open.
+- On which branch does git flow tool merge the hotfix code if we have release branch open. What about if we don't have release branch.
+- Cleanup branches locally and on GitHub. You should only have master and develop at the end.
 
 <br>
 > * throughout exercises you should checkout branches on the GitHub. You should also check the content of the files and ask yourself if the content on the branch that you are looking is what you expect.

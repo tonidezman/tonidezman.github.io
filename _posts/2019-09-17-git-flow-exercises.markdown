@@ -2,7 +2,7 @@
 layout: post
 title:  "Git-flow Exercises"
 date:   2019-09-17 09:00:00 +0200
-categories: exercises
+categories: Exercises
 ---
 
 Inspired by Julia Evans's [exercises](https://jvns.ca/blog/2019/08/27/curl-exercises/) I created this git-flow exercises to gain the muscle memory and understanding how the workflow of working on features, releases, hotfixes work. Note that these exercises are repetitive on purpose. You should do this exercises 3 days in a row and one more time after a week.

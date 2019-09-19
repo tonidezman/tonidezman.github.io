@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Git-flow Exercises"
+title:  "Git Flow Exercises"
 date:   2019-09-17 09:00:00 +0200
 categories: Exercises
 ---

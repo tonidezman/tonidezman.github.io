@@ -5,6 +5,8 @@ date:   2019-09-26 09:00:00 +0200
 categories: Exercises
 ---
 
+# this is work in progress
+
 Inspired by Julia Evans's [exercises](https://jvns.ca/blog/2019/08/27/curl-exercises/) I created this docker exercises to gain the muscle memory and understanding of docker commands. Note that these exercises are repetitive on purpose. You should do this exercises 3 days in a row and one more time after a week. Hints and answers are at the bottom of the page.
 
 Let's get started:

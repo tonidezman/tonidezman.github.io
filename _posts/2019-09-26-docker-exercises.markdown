@@ -7,10 +7,11 @@ categories: Exercises
 
 # this is work in progress
 
-Inspired by Julia Evans's [exercises](https://jvns.ca/blog/2019/08/27/curl-exercises/) I created this docker exercises to gain the muscle memory and understanding of docker commands. Note that these exercises are repetitive on purpose. You should do this exercises 3 days in a row and one more time after a week. Hints and answers are at the bottom of the page.
+I created this docker exercises to gain the muscle memory and understanding of docker commands. Note that these exercises are repetitive on purpose. You should do this exercises 3 days in a row and one more time after a week. Hints and answers are at the bottom of the page.
 
 Docker exercises:
 
+x. list all available docker commands
 x. Show docker containers stats (CPU, Memory, Disk etc.)
 x. How would you get detailed information about docker container?
 x. List all docker container sub-commands.
@@ -19,6 +20,7 @@ x. List all the volumes
 x. How would you delete all volumes except the ones that are currently used by running containers?
 x. How would you list all docker images. There are two ways of doing this. Do both.
 x. Show detail information about the image
+x. Run docker container in detached mode with nginx image and output the log by curl-ing the endpoint.
 
 
 Docker exercises for Rails developers:

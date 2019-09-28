@@ -9,7 +9,19 @@ categories: Exercises
 
 Inspired by Julia Evans's [exercises](https://jvns.ca/blog/2019/08/27/curl-exercises/) I created this docker exercises to gain the muscle memory and understanding of docker commands. Note that these exercises are repetitive on purpose. You should do this exercises 3 days in a row and one more time after a week. Hints and answers are at the bottom of the page.
 
-Let's get started:
+Docker exercises:
+
+x. Show docker containers stats (CPU, Memory, Disk etc.)
+x. How would you get detailed information about docker container?
+x. List all docker container sub-commands.
+x. List all docker container run flags.
+x. List all the volumes
+x. How would you delete all volumes except the ones that are currently used by running containers?
+x. How would you list all docker images. There are two ways of doing this. Do both.
+x. Show detail information about the image
+
+
+Docker exercises for Rails developers:
 
 1. Run simple ruby script `ruby -e "puts 'Hello, World'" in docker container.
 2. List running containers.
@@ -75,6 +87,29 @@ Let's get started:
 16. How would you handle secrets with docker
 16. You need to somehow ignore the secrets
 16. in case of rails you should ignore master.key and any other secret file i.e. .env files
+
+17. Create docker-compose for our rails app from scratch
+17. /
+17. /
+
+18. What does `docker-compose up` do?
+18. /
+18. Lots of things:
+ - Creates a separate network for the app
+ - Creates any non-locally mounted volumes ie Database
+ - Builds an image for any services with a build directive
+ - Creates containers
+ - Launches containers
+
+19. How would you stop all docker-compose services? How about just one service?
+19. use stop command
+19. docker-compose stop <service_name>
+
+19. Run command to see docker-compose logs
+19. use -f for following the logs
+19. docker-compose logs -f <service_name>
+
+
 
 Hints:
 1. run `docker run [options] <image> <command>` which creates, runs and stops the container

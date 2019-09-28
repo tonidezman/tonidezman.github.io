@@ -52,6 +52,30 @@ Let's get started:
 13. use images with filter option and dangling equal to true
 13. docker rmi $(docker images -f "dangling=true")
 
+13. Can you add multiple tags to repository (image name)?
+13. /
+13. yes
+
+13. Create an image with multiple tags as option.
+13. use -t option multiple times
+13. docker build -t first_name:latest -t second_name:1.0 .
+
+14. How would you write CMD command in Dockerfile `bin/rails server -b 0.0.0.0`?
+14. /
+14. CMD["bin/rails", "server", "-b", "0.0.0.0"]
+
+15. Create Dockerfile from scratch that would generate new rails project with the default command
+15. /
+15. /
+
+15. List all the rake tasks from your rails app. Remember to clean up the generated container with
+15. use --rm
+15. docker run --rm <image> bin/rails -T
+
+16. How would you handle secrets with docker
+16. You need to somehow ignore the secrets
+16. in case of rails you should ignore master.key and any other secret file i.e. .env files
+
 Hints:
 1. run `docker run [options] <image> <command>` which creates, runs and stops the container
 2. use either docker 'ps' or 'container ls' commands

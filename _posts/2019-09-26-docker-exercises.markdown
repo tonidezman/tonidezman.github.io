@@ -48,6 +48,10 @@ Let's get started:
 12. look at recent images `docker images | head` and use tag docker command
 12. docker tag <image id> rails_app
 
+13. How would you remove dangling images (images that have <none> in name and tag)
+13. use images with filter option and dangling equal to true
+13. docker rmi $(docker images -f "dangling=true")
+
 Hints:
 1. run `docker run [options] <image> <command>` which creates, runs and stops the container
 2. use either docker 'ps' or 'container ls' commands

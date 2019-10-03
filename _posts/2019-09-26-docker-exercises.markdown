@@ -7,9 +7,14 @@ categories: Exercises
 
 # this is work in progress
 
-I created this docker exercises to gain the muscle memory and understanding of docker commands. Note that these exercises are repetitive on purpose. You should do this exercises 3 days in a row and one more time after a week. Hints and answers are at the bottom of the page.
+I created this docker exercises to gain the muscle memory and understanding of docker commands. Note that these exercises are repetitive on purpose. You should do this exercises 3 days in a row and one more time after a week. Answers are at the bottom of the page.
 
-Docker exercises:
+Exercises are split into three parts:
+1. Basic Docker exercises
+2. Rails specific Docker projects
+3. Docker deployment
+
+# 1. Basic Docker exercises:
 
 x. list all available docker commands
 x. Show docker containers stats (CPU, Memory, Disk etc.)
@@ -21,7 +26,37 @@ x. How would you delete all volumes except the ones that are currently used by r
 x. How would you list all docker images. There are two ways of doing this. Do both.
 x. Show detail information about the image
 x. Run docker container in detached mode with nginx image and output the log by curl-ing the endpoint.
+x. run echo command with docker-compose on one service using run and exec commands.
+    $ docker-compose run --rm <service> echo "hello there"
+    $ docker-compose exec <service> echo "hello there"
+x. How would you free system memory.
+    You could use different prune commands
+    $ docker image prune
+    $ docker container prune
+    $ docker system prune # removes all in one go
 
+Docker-compose exercises:
+
+x. Create docker-compose.yml file from scratch containing three services
+x. spin up entire app
+    $ docker-compose up
+x. Manage container life cycle
+    $ docker-compose [start|stop|kill|restart|pause|unpause|rm] <service>
+x. View logs
+    $ docker-compose logs [-f] <service>
+x. Run one command in a new container
+    $ docker-compose run --rm <service> <command>
+x. Run one command in existing container
+    $ docker-container exec <service> <command>
+x. Rebuild an image
+    $ docker-container build <service>
+x. What does `docker-compose down` do
+    It cleans up containers, network and volumes
+x. You just added one new gem to your Gemfile. What do you do?
+    use `docker-compose stop <service>` and `docker-compose build <service>` and start the service. You could also use up with --build flag.
+x. How would you debug your <service> container?
+    by the default docker-compose ignores ports so you need to use --service-ports when using run command
+    $ docker-compose run --service-ports <service>
 
 Docker exercises for Rails developers:
 
@@ -111,6 +146,9 @@ Docker exercises for Rails developers:
 19. use -f for following the logs
 19. docker-compose logs -f <service_name>
 
+20. You have made some changes to config. How would you restart one service to pick up the changes
+20. Use restart command
+20. docker-compose restart <service>
 
 
 Hints:

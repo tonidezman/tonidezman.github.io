@@ -20,3 +20,5 @@ Lets find out how we got to this place. Timmy is not the only one in the databas
 As you would probably think this fail safes were not perfect and the data was lost. I pointed out how Timmy's reaction and now lets look at the architect's reaction. He the testing. He said: "If we wouldn't have tests this wouldn't have happened". This was probably just a response that should be probably kept from himself because our team is full of smart and talented developers and they know BS when they see one.
 
 The problem here is that this guy apparently doesn't know that the backup should be done a long time ago and it should be done periodically. Because even if we didn't have this weird test suite running on the production data there is also a chance of disk failures. The author of "Designing Data-Intensive Applications" did a good job of scaring the hell out of me when it comes to disk failures on cloud service provider.
+
+We dodged a bullet this time. Don't be like us and make backups of your data.

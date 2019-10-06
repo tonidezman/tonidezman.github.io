@@ -2,7 +2,7 @@
 layout: post
 title:  "War stories: Create readonly user"
 date:   2019-10-05 09:00:00 +0200
-categories: War stories
+categories: WarStories
 ---
 
 > Having readonly user for production just saved my ass!

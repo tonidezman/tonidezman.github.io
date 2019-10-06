@@ -10,9 +10,9 @@ categories: Exercises
 I created this docker exercises to gain the muscle memory and understanding of docker commands. Note that these exercises are repetitive on purpose. You should do this exercises 3 days in a row and one more time after a week. Answers are at the bottom of the page.
 
 Exercises are split into three parts:
-1. Basic Docker exercises
-2. Rails specific Docker projects
-3. Docker deployment
+- Basic Docker exercises
+- Rails specific Docker projects
+- Docker deployment
 
 # 1. Basic Docker exercises:
 

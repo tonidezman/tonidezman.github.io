@@ -1,26 +1,25 @@
 ---
 layout: post
-title:  "War stories: system tests"
+title:  "How not to do System tests"
 date:   2019-10-04 09:00:00 +0200
 categories: WarStories
 ---
 
-I hope that I don't have to convince you to know the benefit of having good test suite that you can rely on. It is a great thing when you develop new feature and run tests knowing that 99% the app works as it should.
+I hope that I don't have to convince you the benefit of having good test suite that you can rely on. It is a great feeling when you develop new feature run tests and know that your app works as it should.
 
-When I first join the team. We had some apps that had tests but were not maintained so when I ran them there were a lot of failing tests. And there were other apps that had not test suite at all.
+Little over a year ago I started to work on a project that had test suite but no one was using it and it has not been run by developers in years.
 
-Because you have code that doesn't have your back you implement and ship draft code meaning that you don't refactor it to be more maintainable and easier to understand.
+One year has past and we now have over 700 tests. The team is writing unit and integration tests and we even started to think how we could have System test meaning few tests that would check if the whole system works.
 
-This changed and after a year we have a solid test suite that catches some of the bugs. But we will need quite some time to catch most of the bugs.
+> You should be able to run system tests locally. Don't create separate server just for system tests.
 
-Up till know we were writing mostly unit and integration tests. I purposed to our CTO that we need system tests that would test the whole system and would bring us even more confidence.
+We had weird deployment pipeline and some code would have to be fixed before we could run system tests locally. We decided to create system test server and create separate repo that would use selenium (capybara) which would do some white box tests but mostly black box testing through the whole system. I was convinced in doing this because we didn't have time to fix deployment and legacy code and I didn't yet have good reasons why this is a bad idea. But now that I gone through the process I know better. I also have reasons and how to convince stakeholder in fixing technical dept first before continuing with the new feature.
 
-He give me green light and so I went on making this a reality. The problem was that we have weird deployment system which is not Dockerized and we were on time constraint that we cannot do everything right so what we did is have our own Systemtest server that would enable us to write selenium test that would check for few path that would check if the system is correctly working.
+### Pain points
+When you have System test server. Only one person can use it. This brings pain and you need to coordinate who can use it and at what time. We used separate slack channel and hooks to inform others that I am using system test server for an hour. When you have few people working on the app this could be ok but when more people use this server you will feel the pain. This would have been avoided if we would be abele to run tests locally.
 
-The problem is that only one can run tests at one time. I felt the pain of this when somebody was running tests as well and I had a weird state that because of test setup and teardown my tests would sometimes pass put other times would for some reason fail. I lost hours because of that. Afcourse I asked if anybody was running the tests and the answer was no. The guy doing this was not lying becuase he thought that he was running tests for one country and knew that the runtime was around 30 minutes. But what he was doing was that he run tests for all countries and that took 4 hours.
+I had an interesting day when one other coworker was running tests when I was trying to figure out why we have some flaky (non deterministic) tests. I asked the team if anyone is running the tests and I got answer from everyone that they are not running any system tests. Later I found out that one of my coworkers was mistaken in that he wasn't running just one subset of system tests that would take 20 minutes but was running the whole test suite that took 3 hours.
 
-I was frustraited and our CTO had a great idea that we should have slack channel that we would have postings on Systemtest server timestamps on when the test suite is running and when it stopes as well as I would post that I was creating new tests and I would be using the server for the day.
+In the GOOS book (Growing Object Oriented Software) the authors say that is important to have CI/CD pipeline at the beginning of the project. I agree with Freeman and Pryce. If you have project that will last for more than few weeks you should start with building the CI pipeline and the whole process of building new and changing features will be much more enjoyable.
 
-The whole experience was painful. We should have Dockerized the app and this would not only give us benifits for running the system tests but also for deployment and scalibility.
-
-We should have done this right. There was a lot of technical dept but looking back it would have taken us lot les time to do it right.
+When doing the system tests or any fixup, refactoring etc. try to come up with as many solutions as possible and than choose the right one for your circumstances.

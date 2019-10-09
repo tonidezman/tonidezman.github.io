@@ -5,14 +5,16 @@ date:   2018-01-01 09:00:00 +0200
 categories: Rails
 ---
 
+All RailsCasts videos are free. I have written a [script](https://github.com/tonidezman/railscast_downloader) that downloads all the episodes
+
 I am going through Railscasts in 2019 and this is my list of episodes I think that you could benefit from even if they are ancient in internet years.
 
 TL;DR:
-  - list of episodes with comments with my thoughts why they are still relevant is on the bootom of this page
+  - list of episodes with comments with my thoughts why they are still relevant is on the bottom of this page
 
   <br>
 
-When I started my career in software development as a hobby railscassts was on the peek. But soon right after Ryan Bates took a long vacation from making screencasts and never got back. Sure we got great screencasts like Go Rails, Ruby Tapas and Drifting Ruby but I want to see if there are any relevant Railscasts tutorials for modern Rails.
+When I started my career in software development as a hobby railscasts was on the peek. But soon right after Ryan Bates took a long vacation from making screencasts and never got back. Sure we got great screencasts like Go Rails, Ruby Tapas and Drifting Ruby but I want to see if there are any relevant Railscasts tutorials for modern Rails.
 
 Over the last few years I heard a lot of people still talking about Railscasts as a resource that helped them tremendously with their leveling up. I want to see for myself what all the buzz is about. By going through the first 50 episodes I found out that even if the episodes are from 2007 there are quite few ones that are still applicable today. Sure the code from Rails version 1 to current 6 is different but this is expected. What strike me is that the fundamentals are the same.
 

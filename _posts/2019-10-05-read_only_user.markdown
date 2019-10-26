@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "War stories: Create readonly user"
+title:  "Create readonly user"
 date:   2019-10-05 09:00:00 +0200
 categories: WarStories
 ---

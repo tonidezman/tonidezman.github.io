@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "War stories: 5 years of work deleted"
+title:  "5 years of work deleted"
 date:   2019-10-04 09:00:00 +0200
 categories: WarStories
 ---

@@ -72,6 +72,3 @@ ActiveRecord::Querying#methods:
 - **Episode 17**: [HABTM Checkboxes](http://railscasts.com/episodes/17-habtm-checkboxes). The code is outdated but the main takeaway from this episode is that you need to add brackets at the end to like this `product[category_ids][]` tell rails that it should build array for you. Newer Rails have form_with syntax that you can checkout in api.rubyonrails.org how to use.
 
 - **Episode 19**: [Where Administration Goes](http://railscasts.com/episodes/19-where-administration-goes?view=asciicast). Ryan present different approact to admin dashboards. You can embed edit/destroy links right into the page.
-
-# I finished episode 19
-- **Episode 0**: [xx](xx).

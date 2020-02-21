@@ -9,6 +9,7 @@ If you have ever heard of 10.000 hour rule you know that this came from a resear
 - "Talent is overrated" by Geoff Colvin
 - "The talent code" by Daniel Coyle
 - "Bounce" by Matthew Syed
+
 The 10.000 hours rule on becoming good at any skill was popularized by Malcom Gladwell in the book Outliers.
 
 After reading the book "Peak" by Anders Ericsson I now see the reasons why Anders would want to write his own book on the subject of deliberate practice. The reason why he wrote another book on this subject is that other book authors didn't completely understand his research. Anders was kind enough to enlighten us on the subject.
@@ -20,9 +21,9 @@ Main differences comparing Peak and other books:
 
 The one thing that stood the most out for me in the book "The Talent Code" is that most genioues lost one or both parents when they were quite young. The author suggests that this brought great pressior and sense of hostile environment. All this pressiored young geniousses to practice evan harder.
 
-That said I want to talk about my own experience and what I noticed when following other great programmers. What I found out is that most good programmers that I know were tramatized by some difficult experience either losing their job or being threten too loose their job. This forced them to become good.
+That said I want to talk about my own experience and what I noticed when following other great programmers. What I found out is that most good programmers that I know were tramatized by some difficult experience by either losing their job or being threten too loose their job. This forced them to become good.
 
-You could ask me: "What about Peak? What was the most notable thing about that book?". For me it was the authors suggestion that knowledge while being important to acquire skills are evan more important. This changed how I learn things about programming in my spare time. I first do deliberate practice and than I do "easy" stuff like reading books.
+You could ask me: What about Peak? What was the most notable thing about that book? For me it was the authors suggestion that knowledge while being important to acquire skills are evan more important. This changed how I learn things about programming in my spare time. I first do deliberate practice and than I do the "easy" stuff like reading books.
 
 But what kind of deliberate practice should I do?
 

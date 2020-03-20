@@ -1,13 +1,22 @@
 ---
 layout: post
-title:  "Programmer's Compedium Articles"
-date:   2020-02-20 09:00:00 +0200
+title: "Programmer's Compedium Articles"
+date: 2020-02-20 09:00:00 +0200
 categories: DAS
 ---
 
-These are the articles from Destroy all software website made by Gary Bernhardt. Enjoy the content and please support him!
+These are the articles from Destroy all software website made by Gary Bernhardt.
+Enjoy the content and please support him!
 
-# Types:
+# Group blog posts:
+
+- [Types](https://www.destroyallsoftware.com/compendium/types?share_key=904db8101678d1b4)
+- [Digital Electronic](https://www.destroyallsoftware.com/compendium/digital-electronics?share_key=a34c4aca0cb2449a)
+- [Software Structure](https://www.destroyallsoftware.com/compendium/software-structure?share_key=1f899fe130e7c550)
+- [Network Protocols](https://www.destroyallsoftware.com/compendium/network-protocols?share_key=8d29761f100c4481)
+
+# Single blog posts:
+
 - [Statically typed languages](https://www.destroyallsoftware.com/compendium/statically-typed-languages?share_key=f8582de9bc3118c1)
 - [Dynamically typed languages](https://www.destroyallsoftware.com/compendium/dynamically-typed-languages?share_key=de39246ab9c30144)
 - [Static and dynamic languages compared](https://www.destroyallsoftware.com/compendium/static-and-dynamic-languages-compared?share_key=20bdf10078165051)
@@ -20,6 +29,7 @@ These are the articles from Destroy all software website made by Gary Bernhardt.
 - [Some static type systems](https://www.destroyallsoftware.com/compendium/some-static-type-systems?share_key=9c878ef2a672557a)
 
 # Digital Electronics:
+
 - [Logic Gates](https://www.destroyallsoftware.com/compendium/logic-gates?share_key=255b05eea8510f6f)
 - [De Morgan's Laws](https://www.destroyallsoftware.com/compendium/de-morgans-laws?share_key=4d610187bcd557a9)
 - [Building gates from NAND](https://www.destroyallsoftware.com/compendium/building-gates-from-nand?share_key=38712e572d5a491f)
@@ -30,6 +40,7 @@ These are the articles from Destroy all software website made by Gary Bernhardt.
 - [Multi-bit addition](https://www.destroyallsoftware.com/compendium/multi-bit-addition?share_key=34046b818d0eac60)
 
 # Software Structure:
+
 - [Programming language structure](https://www.destroyallsoftware.com/compendium/programming-language-structure?share_key=98fae295b6c0ef72)
 - [Code is mostly graphs](https://www.destroyallsoftware.com/compendium/code-is-mostly-graphs?share_key=9cd13ece37ee97ea)
 - [Graphs in thought](https://www.destroyallsoftware.com/compendium/graphs-in-thought?share_key=3124d87353d88ca7)
@@ -44,6 +55,7 @@ These are the articles from Destroy all software website made by Gary Bernhardt.
 - [The utility of graph analysis](https://www.destroyallsoftware.com/compendium/the-utility-of-graph-analysis?share_key=2472260a34819746)
 
 # Network Protocols:
+
 - [Network routing](https://www.destroyallsoftware.com/compendium/network-routing?share_key=6b7d1c29dd472471)
 - [Packet switching](https://www.destroyallsoftware.com/compendium/packet-switching?share_key=f9066d71a458151e)
 - [Out-of-order packets](https://www.destroyallsoftware.com/compendium/out-of-order-packets?share_key=637bf7e880afff8e)

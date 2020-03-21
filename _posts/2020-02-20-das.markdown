@@ -8,14 +8,14 @@ categories: DAS
 These are the articles from Destroy all software website made by Gary Bernhardt.
 Enjoy the content and please support him!
 
-# Group blog posts:
+# Groups:
 
 - [Types](https://www.destroyallsoftware.com/compendium/types?share_key=904db8101678d1b4)
 - [Digital Electronic](https://www.destroyallsoftware.com/compendium/digital-electronics?share_key=a34c4aca0cb2449a)
 - [Software Structure](https://www.destroyallsoftware.com/compendium/software-structure?share_key=1f899fe130e7c550)
 - [Network Protocols](https://www.destroyallsoftware.com/compendium/network-protocols?share_key=8d29761f100c4481)
 
-# Single blog posts:
+# Singles:
 
 - [Statically typed languages](https://www.destroyallsoftware.com/compendium/statically-typed-languages?share_key=f8582de9bc3118c1)
 - [Dynamically typed languages](https://www.destroyallsoftware.com/compendium/dynamically-typed-languages?share_key=de39246ab9c30144)

@@ -37,6 +37,8 @@ function isNumberValid(string) {
 
 ## Solution
 
+For State Machine
+
 ![state machine for valid number challenge](/assets/state-machine-is-number-valid.png)
 
 To solve this problem with state machine we can have object that contains

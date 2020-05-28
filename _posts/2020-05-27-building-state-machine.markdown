@@ -41,9 +41,9 @@ For State Machine
 
 ![state machine for valid number challenge](/assets/state-machine-is-number-valid.png)
 
-To solve this problem with state machine we can have object that contains
-`different states` and a `nextState function` that would make transition from
-one state to the next.
+To solve this problem with state machine we have an object or hash table that
+contains `different states` and a `nextState function` that would make
+transition from one state to the next.
 
 ```javascript
 const STATE = {

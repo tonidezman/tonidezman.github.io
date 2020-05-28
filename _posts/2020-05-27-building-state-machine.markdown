@@ -30,12 +30,14 @@ function isNumberValid(string) {
 
 ## Hints
 
-- use regex
+- use regex or
 - implement state machine
 
 <br>... <br> <br>
 
 ## Solution
+
+![state machine for valid number challenge](/assets/state-machine-is-number-valid.png)
 
 To solve this problem with state machine we can have object that contains
 `different states` and a `nextState function` that would make transition from
